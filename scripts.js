@@ -46,11 +46,11 @@ function insert_sign(){
 function check_pattern(){
     for(let i=0;i<8;i++){
         if(x_arr.includes(winning_patterns[i][0]) && x_arr.includes(winning_patterns[i][1]) && x_arr.includes(winning_patterns[i][2])){
-            chance_represent.innerHTML=`X wins`;
+            chance_represent.innerHTML=`Congratulations: X wins`;
             continue_game=false;
         }
         if(y_arr.includes(winning_patterns[i][0]) && y_arr.includes(winning_patterns[i][1]) && y_arr.includes(winning_patterns[i][2])){
-            chance_represent.innerHTML=`Y wins`;
+            chance_represent.innerHTML=`Congratulations: Y wins`;
             continue_game=false;
         }
 

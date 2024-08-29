@@ -3,7 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(135deg, #f8cdda, #1c92d2);
+    background: #111b22;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
@@ -14,7 +14,7 @@ body {
 
 .game-title {
     font-size: 3rem;
-    color: #fff;
+    color: #52ffc5;
     margin-bottom: 20px;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -31,7 +31,7 @@ body {
 .cell {
     width: 120px;
     height: 120px;
-    background-color: #fff;
+    background-color: #213440;
     border-radius: 15px;
     display: flex;
     justify-content: center;
@@ -66,16 +66,15 @@ body {
 .restart-button {
     padding: 12px 25px;
     font-size: 1.2rem;
-    color: #fff;
-    background-color: #3498db;
+    color: #52ffc5;
+    background-color: #1a2831;
     border: none;
-    border-radius: 5px;
+    border-radius: 25px;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .restart-button:hover {
-    background-color: #2980b9;
     transform: scale(1.05);
 }
 #sign-img{
